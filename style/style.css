@@ -119,7 +119,7 @@ body {
     background-color: #fff;
 }
 
-.header_container {
+.header__container {
     align-items: center;
 }
 
@@ -224,13 +224,13 @@ body {
     background-size: cover;
 }
 
-.hero-content {
+.hero__content {
     max-width: 50%;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.hero-title {
+.content__title {
     font-weight: 300;
     font-size: 40px;
     line-height: 130%;
@@ -238,7 +238,7 @@ body {
     margin-bottom: 25px;
 }
 
-.hero-descr {
+.content__descr {
     font-size: 16px;
     line-height: 155%;
     margin: 0;
@@ -246,18 +246,18 @@ body {
     color: #787878;
 }
 
-.hero-wrapper {
+.hero__wrapper {
     flex-direction: column;
     align-items: center;
 }
 
-.hero-btn {
+.hero__btn {
     min-width: 250px;
     padding: 20px;
     margin-bottom: 14px;
 }
 
-.hero-secure {
+.hero__secure {
     font-size: 11px;
     line-height: 155%;
     color: #787878;
