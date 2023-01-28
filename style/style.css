@@ -89,7 +89,7 @@ body {
     margin: 0 auto;
 }
 
-.section-title {
+.section__title {
     margin: 0;
     margin-bottom: 40px;
     font-weight: 300;
@@ -98,7 +98,7 @@ body {
     color: #1c1c1c;
 }
 
-.section-descr {
+.section__descr {
     margin: 0;
     margin-bottom: 50px;
     font-size: 16px;
@@ -273,15 +273,15 @@ body {
     border-bottom: 1px solid #dadada;
 }
 
-.services-title {
+.services__title {
     text-align: center;
 }
 
-.services-descr {
+.services__descr {
     text-align: center;
 }
 
-.services-item {
+.services__item {
     flex-direction: column;
     align-items: center;
     padding: 60px 30px;
@@ -291,29 +291,29 @@ body {
     transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
-.services-item:hover {
+.services__item:hover {
     border-color: #3172b9;
     background: #3172b9;
 }
 
-.services-item:not(:nth-child(4n)) {
+.services__item:not(:nth-child(4n)) {
     margin-right: 30px;
 }
 
-.services-item-icon {
+.services__icon {
     margin-bottom: 25px;
 }
 
-.icon-color {
+.icon_color {
     fill: #3172b9;
     transition: fill .3s ease-in-out;
 }
 
-.services-item:hover .icon-color {
+.services__item:hover .icon_color {
     fill: #fff;
 }
 
-.services-item-title {
+.item__title {
     margin: 0;
     margin-bottom: 15px;
     font-weight: 600;
@@ -322,11 +322,11 @@ body {
     color: #1c1c1c;
 }
 
-.services-item:hover .services-item-title {
+.services__item:hover .item__title {
     color: #fff;
 }
 
-.services-item-descr {
+.item__descr {
     margin: 0;
     text-align: center;
     font-size: 14px;
@@ -335,7 +335,7 @@ body {
     transition: color .3s ease-in-out;
 }
 
-.services-item:hover .services-item-descr {
+.services__item:hover .item__descr {
     color: #fff;
 }
 
