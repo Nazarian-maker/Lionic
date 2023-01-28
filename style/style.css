@@ -273,11 +273,11 @@ body {
     border-bottom: 1px solid #dadada;
 }
 
-.services__title {
+.section__title_center {
     text-align: center;
 }
 
-.services__descr {
+.section__descr_center {
     text-align: center;
 }
 
@@ -519,23 +519,23 @@ body {
     border-bottom: 1px solid #dadada;
 }
 
-.contact-address {
+.contact__address {
     font-style: normal;
 }
 
-.contacts-item-address {
+.contacts__item-address {
     background: url(../img/location_on.svg);
 }
 
-.contacts-item-call {
+.contacts__item-call {
     background: url(../img/phone.svg);
 }
 
-.contacts-item-mail {
+.contacts__item-mail {
     background: url(../img/mail.svg);
 }
 
-.contacts-item {
+.contacts__item {
     flex-direction: column;
     width: 370px;
     background-position: left top;
@@ -544,11 +544,11 @@ body {
     padding-top: 48px;
 }
 
-.contacts-item:not(:nth-child(3n)) {
+.contacts__item:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
-.contact-item-caption {
+.contact__caption {
     font-weight: 600;
     font-size: 17px;
     line-height: 180%;
@@ -556,7 +556,7 @@ body {
     margin-bottom: 30px;
 }
 
-.contact-item-text {
+.contact__text {
     max-width: 215px;
     font-size: 14px;
     line-height: 180%;
@@ -564,7 +564,7 @@ body {
     margin: 0;
 }
 
-.contact-item-links {
+.contact__links {
     display: inline-block;
     width: 121px;
     font-size: 14px;
@@ -573,15 +573,15 @@ body {
     transition: color .3s ease-in-out;
 }
 
-.contact-item-links:focus {
+.contact__links:focus {
     outline: 1px solid #71a7e2;
 }
 
-.contact-item-links:hover {
+.contact__links:hover {
     color: #71a7e2;
 }
 
-.contact-item-links:active {
+.contact__links:active {
     outline: none;
     color: #0e3b6c;
 }
@@ -592,35 +592,26 @@ body {
     border-bottom: 1px solid #c4c4c4;
 }
 
-.join-us-title {
-    text-align: center;
-}
-
-.join-us-descr {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.form {
+.join-us__form {
     padding: 0 55px;
 }
 
-.form-top {
+.form__top {
     justify-content: space-between;
     margin-bottom: 19px;
 }
 
-.form-left,
-.form-right {
+.form__left,
+.form__right {
     width: 49%;
 }
 
-.form-left {
+.form__left {
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.form-input {
+.form__input {
     border: 1px solid #dadada;
     border-radius: 50px;
     box-sizing: border-box;
@@ -630,25 +621,25 @@ body {
     transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
-.form-input:not(:nth-child(3n)) {
+.form__input:not(:nth-child(3n)) {
     margin-bottom: 20px;
 }
 
-.form-input:focus {
+.form__input:focus {
     outline: none;
     border-color: #71a7e2;
     background: rgba(113, 167, 226, 0.2);
 }
 
-.form-input:hover {
+.form__input:hover {
     border-color: #71a7e2;
 }
 
-.form-input:active {
+.form__input:active {
     border-color: #0e3b6c;
 }
 
-.form-select {
+.form__select {
     border: 1px solid #dadada;
     border-radius: 50px;
     box-sizing: border-box;
@@ -658,21 +649,21 @@ body {
     transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
-.form-select:focus {
+.form__select:focus {
     outline: none;
     border-color: #71a7e2;
     background: rgba(113, 167, 226, 0.2);
 }
 
-.form-select:hover {
+.form__select:hover {
     border-color: #71a7e2;
 }
 
-.form-select:active {
+.form__select:active {
     border-color: #0e3b6c;
 }
 
-.form-textarea {
+.form__textarea {
     border: 1px solid #dadada;
     border-radius: 20px;
     box-sizing: border-box;
@@ -683,47 +674,47 @@ body {
     transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
-.form-textarea:focus {
+.form__textarea:focus {
     outline: none;
     border-color: #71a7e2;
     background: rgba(113, 167, 226, 0.2);
 }
 
-.form-textarea:hover {
+.form__textarea:hover {
     border-color: #71a7e2;
 }
 
-.form-textarea:active {
+.form__textarea:active {
     border-color: #0e3b6c;
 }
 
-.form-bottom {
+.form__bottom {
     justify-content: flex-end;
 }
 
-.form-wrapper {
+.form__wrapper {
     flex-direction: column;
     align-items: center;
 }
 
-.form-btn {
+.form__btn {
     min-width: 230px;
     padding: 20px 0;
     border-radius: 50px;
     margin-bottom: 9px;
 }
 
-.form-check {
+.form__check {
     font-size: 12px;
     line-height: 16px;
     color: #787878;
 }
 
-.form-check input {
+.form__check input {
     margin-right: 8px;
 }
 
-.form-check a {
+.form__check a {
     color: #3172b9;
     text-decoration: underline;
 }
