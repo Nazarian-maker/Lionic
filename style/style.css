@@ -725,13 +725,13 @@ body {
     padding: 42px 0;
 }
 
-.footer-copy {
+.footer__copy {
     font-size: 12px;
     line-height: 16px;
     color: #787878;
 }
 
-.footer-link {
+.footer__link {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -739,16 +739,16 @@ body {
     transition: color .3s ease-in-out;
 }
 
-.footer-link:focus {
+.footer__link:focus {
     outline-offset: 2px;
     outline: 1px solid #71a7e2;
 }
 
-.footer-link:hover {
+.footer__link:hover {
     color: #71a7e2;
 }
 
-.footer-link::after {
+.footer__link::after {
     content: "";
     position: absolute;
     left: 0;
@@ -760,29 +760,29 @@ body {
     transition: opacity .3s ease-in-out;
 }
 
-.footer-container {
+.footer__container {
     align-items: center;
     justify-content: space-between;
 }
 
-.foote-left,
-.footer-right {
+.footer__left,
+.footer__right {
     align-items: center;
 }
 
-.footer-logo {
+.footer__logo {
     margin-right: 25px;
 }
 
-.footer-item:not(:last-child) {
+.footer__item:not(:last-child) {
     margin-right: 28px;
 }
 
-.footer-nav {
+.footer__nav {
     margin-right: 56px;
 }
 
-.social-link {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -790,39 +790,39 @@ body {
     height: 24px;
 }
 
-.social-link svg {
+.social__link svg {
     fill: #000;
     transition: fill .3s ease-in-out, stroke .3s ease-in-out;
 }
 
-.social-link-mail svg {
+.social__link-mail svg {
     fill: transparent;
     stroke: #000;
 }
 
-.social-link:focus {
+.social__link:focus {
     outline-offset: 2px;
     outline: 1px solid #71a7e2;
 }
 
-.social-link:hover svg {
+.social__link:hover svg {
     fill: #71a7e2;
 }
 
-.social-link-mail:hover svg {
+.social__link-mail:hover svg {
     fill: transparent;
     stroke: #71a7e2;
 }
 
-.social-link:active svg {
+.social__link:active svg {
     fill: #3172b9;
 }
 
-.social-link-mail:active svg {
+.social__link-mail:active svg {
     fill: transparent;
     stroke: #3172b9;
 }
 
-.social-item:not(:last-child) {
+.social__item:not(:last-child) {
     margin-right: 32px;
 }
