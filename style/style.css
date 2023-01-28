@@ -345,34 +345,34 @@ body {
     border-bottom: 1px solid #dadada;
 }
 
-.article-list {
+.article__list {
     flex-wrap: wrap;
 }
 
-.article-item {
+.article__item {
     width: 570px;
     margin-bottom: 30px;
 }
 
-.blog-preview {
+.article__blog {
     overflow: hidden;
     border: 1px solid #e4e4e4;
     border-radius: 5px;
 }
 
-.article-item:not(:nth-child(2n)) {
+.article__item:not(:nth-child(2n)) {
     margin-right: 30px;
 }
 
-.blog-preview-image {
+.blog__image {
     object-fit: cover;
 }
 
-.blog-preview-text {
+.blog__text {
     padding: 30px;
 }
 
-.blog-preview-time {
+.blog__time {
     display: block;
     margin-bottom: 5px;
     font-size: 10px;
@@ -381,7 +381,7 @@ body {
     transition: color .3s ease-in-out;
 }
 
-.blog-preview-title {
+.blog__title {
     margin: 0;
     margin-bottom: 15px;
     font-size: 20px;
@@ -390,7 +390,7 @@ body {
     transition: color .3s ease-in-out;
 }
 
-.blog-preview-descr {
+.blog__descr {
     max-width: 210px;
     margin: 0;
     font-size: 14px;
@@ -399,57 +399,57 @@ body {
     transition: color .3s ease-in-out;
 }
 
-.blog-preview-link {
+.blog__link {
     position: relative;
     width: 100%;
     transition: background-color .3s ease-in-out;
 }
 
-.blog-preview-link:focus {
+.blog__link:focus {
     background-color: #71a7e2;
 }
 
-.blog-preview-link:focus .blog-preview-title {
+.blog__link:focus .blog__title {
     color: #fff;
 }
 
-.blog-preview-link:focus .blog-preview-descr {
+.blog__link:focus .blog__descr {
     color: #fff;
 }
 
-.blog-preview-link:focus .blog-preview-time {
+.blog__link:focus .blog__time {
     color: #fff;
 }
 
-.blog-preview-link:hover {
+.blog__link:hover {
     background-color: #3172b9;
 }
 
-.blog-preview-link:hover .blog-preview-title {
+.blog__link:hover .blog__title {
     color: #fff;
 }
 
-.blog-preview-link:hover .blog-preview-descr {
+.blog__link:hover .blog__descr {
     color: #fff;
 }
 
-.blog-preview-link:hover .blog-preview-time {
+.blog__link:hover .blog__time {
     color: #fff;
 }
 
-.blog-preview-link:active {
+.blog__link:active {
     background-color: #0e3b6c;
 }
 
-.blog-preview-link:active .blog-preview-title {
+.blog__link:active .blog__title {
     color: #fff;
 }
 
-.blog-preview-link:active .blog-preview-descr {
+.blog__link:active .blog__descr {
     color: #fff;
 }
 
-.blog-preview-link:active .blog-preview-time {
+.blog__link:active .blog__time {
     color: #fff;
 }
 
