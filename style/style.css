@@ -116,6 +116,10 @@ body {
     padding-bottom: 160px;
 }
 
+.burger {
+    display: none;
+}
+
 /* header */
 
 .header {
