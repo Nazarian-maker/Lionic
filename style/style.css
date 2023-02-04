@@ -234,7 +234,7 @@ body {
 }
 
 .hero__content {
-    max-width: 50%;
+    width: 50%;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -371,7 +371,7 @@ body {
 }
 
 .article__item:not(:nth-child(2n)) {
-    margin-right: 30px;
+    margin-right: var(--gap);
 }
 
 .blog__image {
