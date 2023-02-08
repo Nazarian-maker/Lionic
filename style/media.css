@@ -178,6 +178,7 @@
 }
 
 @media (max-width: 576px) {
+
     :root {
         --gap: 15px;
     }
@@ -462,6 +463,22 @@
         width: calc(100% + 30px);
         height: 1px;
         background-color: #c4c4c4;
+    }
+
+    .articles__center {
+        display: block;
+    }
+
+    .article__item:nth-child(-n+2) {
+        display: none;
+    }
+
+    .articles__center_hidden {
+        display: none;
+    }
+
+    .article__item.article__item_visible {
+        display: block;
     }
 
 }

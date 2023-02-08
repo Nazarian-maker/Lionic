@@ -833,3 +833,9 @@ body {
 .social__item:not(:last-child) {
     margin-right: 32px;
 }
+
+.articles__center {
+    padding-top: 20px;
+    display: none;
+    text-align: center;
+}
